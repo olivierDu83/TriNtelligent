@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+h1{
+	text-align: center;
+	color: blue;
+	margin-top: 50px;
+}
+
+	
+p {
+	/*background-image: url('./images/imglivre.jpg');*/
+	background-image: url('../IMG/imgCollect3.jpg');
+	/*background-image: url('./images/shut.jpg');*/
+	background-size: 50% 50%;
+}
+html { 
+  margin:0;
+  padding:0;
+  background: url('../IMG/imgCollect3.jpg') no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: 50% 50%; /* version standardisée */
+}
